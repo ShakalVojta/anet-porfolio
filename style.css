@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+.navigation-start {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #232323;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    z-index: 2;
+}
+
+.navigation-start a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 20px;
+    border: 0 solid black;
+}
+
+.navigation-start a:hover {
+    background-color: rgb(67, 103, 67);
+    color: #232323;
+}
+
+.navigation-start img {
+    background-color: #ffffff;
+    height: 5rem;
+    margin-left: -50px;
+    width: 10%;
+}
+
+.white-space {
+    background-color: #ffffff;
+    width: 100%;
+    height: 12rem;
+}
+
+.header {
+    background-image: url(img/frond-1869757_1280.png);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__title {
+    margin-top: 12rem;
+    font-size: 70px;
+    font-weight:300;
+}
+
+.header__title--text {
+    font-weight: bold;
+    color: rgb(123, 205, 123);
+    border-bottom: 10px solid #ffffff;
+}
+
+.header__title--text:hover{
+    color: rgb(67, 103, 67);
+    cursor: pointer;
+}
+
+.header__describe {
+    font-size: 62px;
+    font-weight: 300;
+}
+
+.short-text {   
+    width: 100%;    
+    height: 25rem;
+}
+
+.short-text--container {
+    height: 5rem;
+}
+
+.short-text__message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    color: #232323;
+}
+
+.short-text__message--text {
+    font-size: 30px;
+}
+
+.short-text__circles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.short-text__circles--circle {
+    width: 150px;
+    height: 150px;  
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: relative;
+    top: 100px;
+    z-index: 2;
+}
+
+.short-text__skills {
+    background-color: #232323;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    height: 26rem;  
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.short-text__skills p {
+    font-size: 20px;
+}
+
+.short-text__skills--discover,
+.short-text__skills--design,
+.short-text__skills--deploy,    
+.short-text__skills--beready {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 10%;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #54be90;
+    font-size: 2rem;
+}
+
+.short-text__skills--discover {
+    margin-top: -30px;
+}
+
+.short-text__skills--deploy h3 {
+    margin-top: -50px;
+}
+
+.short-text__skills--beready {
+    margin-top: -30px;
+}
