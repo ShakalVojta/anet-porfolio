@@ -138,25 +138,14 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 10%;
+    width: 15%;
     margin: 0 auto;
+    height: 2rem;
 }
 
 h3 {
     color: #54be90;
     font-size: 2rem;
-}
-
-.short-text__skills--discover {
-    margin-top: -30px;
-}
-
-.short-text__skills--deploy h3 {
-    margin-top: -50px;
-}
-
-.short-text__skills--beready {
-    margin-top: -30px;
 }
 
 .my-skills {
@@ -187,7 +176,6 @@ h3 {
 
 .my-skills__container--label {
     display: flex;
-    width: 100%;
 }   
 
 .my-skills__container--name {
@@ -211,4 +199,9 @@ h3 {
     color: #232323;
     padding: 4px;
     font-size: 28px;
+}
+
+.space {
+    display: flex;
+    width: 80%;
 }
