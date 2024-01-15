@@ -30,7 +30,7 @@ body {
 }
 
 .navigation-start a:hover {
-    background-color: rgb(67, 103, 67);
+    background-color: #54be90;
     color: #232323;
 }
 
@@ -113,7 +113,7 @@ body {
     background-color: #ffffff;
     position: relative;
     top: 100px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .short-text__skills {
@@ -157,4 +157,58 @@ h3 {
 
 .short-text__skills--beready {
     margin-top: -30px;
+}
+
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 300px;
+    background-color: #ffffff;
+    color: #54be90;
+    height: 60rem;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.my-skills h2 { 
+    margin-top: 400px;
+    color:#54be90;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 90px;
+}
+
+.my-skills__container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.my-skills__container--label {
+    display: flex;
+    width: 100%;
+}   
+
+.my-skills__container--name {
+    text-align: center;
+    color: #ffffff;
+    background-color: #232323;
+    padding: 0.5rem;    
+    font-size: 2rem;
+    width: 20%;
+}
+
+.my-skills__container--spacebar {
+    background-color: #54be90;
+    width: 60% ;
+}
+
+.my-skills__container--percent {
+    width: 10%;    
+    background-color: #ebebeb;
+    text-align: right;
+    color: #232323;
+    padding: 4px;
+    font-size: 28px;
 }
